@@ -21,10 +21,20 @@ public class Main {
 
         // Llamamos a Empleado
         Empleado miEmpleado1 = new Empleado();
+        System.out.println("Numero empleados "+Empleado.getNumEmpleados());
+
+
         Empleado miEmpleado2 = new Empleado();
         Empleado miEmpleado3 = new Empleado();
 
-        System.out.println(Empleado.getNumEmpleados());
+
+        miEmpleado1.setNombre("Pepe");
+
+        miEmpleado1.setDni("2983763P");
+
+        miEmpleado1.setSueldo(2918);
+
+        System.out.println("Numero empleados "+Empleado.getNumEmpleados());
 
     }
 
