@@ -1,0 +1,12 @@
+Crea una clase Contar (contador como atributo) con los métodos para incrementar y decrementar el contador de la clase Contar.
+ La clase contendrá un constructor por defecto, un constructor con parámetros, y los métodos getters y setters.
+
+void incrementar(int incremento)--> incrementando en la cantidad indicada en "incremento" del atributo contador
+
+void decrementar (int decremento)--> decrementando en la cantidad indicada en "decremento" del atributo contador
+
+int suma (Contar cont1)--> devuelve la suma de nuestro contador + contador del objeto cont1
+
+En la clase principal, crear dos objetos (c1,c2) de la clase Contar con costructor por defecto, y llamar a los métodos, incrementar
+ y decrementar para ambos objetos con los valores que introduzca por teclado el usuario. Para posteriormente invocar a suma y mostrar
+  el valor de ambos objetos por pantalla.
