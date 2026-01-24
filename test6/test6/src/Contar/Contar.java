@@ -1,5 +1,7 @@
 package Contar;
 
+import javax.print.DocFlavor;
+
 public class Contar {
 
     // Atributo
@@ -12,7 +14,7 @@ public class Contar {
 
     // Constructor con parámetros
     public Contar (int contador) {
-        this.contador = contardor;
+        this.contador = contador;
     }
 
     //Setters
@@ -28,8 +30,19 @@ public class Contar {
 
     //Métodos
     public void incrementar (int incremento) {
-        incremento++;
-        incremento = contador;
+        setContador(incremento + contador);
+    }
+
+    public void decrementar (int decremento) {
+        setContador(contador - decremento);
+    }
+
+    public int suma (Contar cont1) {
+        return contador + cont1.getContador();
+    }
+
+    public String toString () {
+        return "Este es el resultado de incrementar: "+ getContador();
     }
 
 }
