@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d14724f5-63b8-4cab-9af5-af9e9ced7698" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/RA4 exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/src/Numero/Numero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test4/RA4 exercises/src/title.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/RA4-test5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/src/Empleado/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test5/RA4-test5/src/title.tx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/src/Contar/Contar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/src/title.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test6/test6/test6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/src/fraccion/Fraccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test7/test7/test7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/out/production/test8/Fecha/Fecha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/out/production/test8/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/src/Fecha/Fecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/test8/test8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test8/txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/src/Estudiante/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test9/test9/test9.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="39XCqD7qs9B4ShlKpQQb1Pex8IL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "myExercices",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d14724f5-63b8-4cab-9af5-af9e9ced7698" name="Changes" comment="" />
+      <created>1770833217285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770833217285</updated>
+    </task>
+    <servers />
+  </component>
+</project>
