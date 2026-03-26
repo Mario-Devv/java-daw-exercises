@@ -1,6 +1,6 @@
-package RA7;
+package RA6;
 
-public class AlarmaMusical extends Alarma{
+public class AlarmaMusical extends Alarma {
     private String cancion;
 
     public AlarmaMusical(){

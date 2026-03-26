@@ -1,6 +1,6 @@
-package RA7;
+package RA6;
 
-public class AlarmaVibracion extends Alarma{
+public class AlarmaVibracion extends Alarma {
         public AlarmaVibracion(){
             super();
         }
