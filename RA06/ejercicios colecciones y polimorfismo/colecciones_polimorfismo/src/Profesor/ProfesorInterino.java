@@ -4,7 +4,9 @@ public class ProfesorInterino extends Profesor{
     private int anyosInterinidad;
     private boolean segundoTrabajo;
 
-    public ProfesorInterino(String dni, String nombre, String apellidos, String fecha_naciemiento, String titulacion, String especializacion, int anyosInterinidad, boolean segundoTrabajo) {
+
+    public ProfesorInterino(String dni, String nombre, String apellidos, String fecha_naciemiento, String titulacion, String especializacion,
+                            int anyosInterinidad, boolean segundoTrabajo) {
         super(dni, nombre, apellidos, fecha_naciemiento, titulacion, especializacion);
         this.anyosInterinidad = anyosInterinidad;
         this.segundoTrabajo = segundoTrabajo;
@@ -26,9 +28,13 @@ public class ProfesorInterino extends Profesor{
         this.segundoTrabajo = segundoTrabajo;
     }
 
+    public double calculoDeSueldo (){
+        return this.sueldoBase + (5 * anyosInterinidad);
+    }
+
     @Override
     public String toString() {
-        return "ProfesorInterino{" +
+        return "ProfesorInterino{" + super.toString() +
                 "anyosInterinidad=" + anyosInterinidad +
                 ", segundoTrabajo=" + segundoTrabajo +
                 '}';

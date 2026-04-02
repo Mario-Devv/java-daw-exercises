@@ -4,11 +4,13 @@ import Personas.Personas;
 
 public class Profesor extends Personas {
     protected String titulacion, especializacion;
+    protected double sueldoBase;
 
     public Profesor(String dni, String nombre, String apellidos, String fecha_naciemiento, String titulacion, String especializacion) {
         super(dni, nombre, apellidos, fecha_naciemiento);
         this.titulacion = titulacion;
         this.especializacion = especializacion;
+        this.sueldoBase = 1000;
     }
 
     public String getTitulacion() {
@@ -25,5 +27,13 @@ public class Profesor extends Personas {
 
     public void setEspecializacion(String especializacion) {
         this.especializacion = especializacion;
+    }
+
+    @Override
+    public String toString() {
+        return "Profesor{" +
+                "especializacion='" + especializacion + '\'' +
+                ", titulacion='" + titulacion + '\'' +
+                '}';
     }
 }
