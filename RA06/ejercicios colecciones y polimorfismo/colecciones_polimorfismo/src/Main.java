@@ -2,14 +2,35 @@ import Asignaturas.Asignaturas;
 import Profesor.ProfesorInterino;
 import ext.Personas.Alumno;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
-        Asignaturas as = new Asignaturas("10", "PROG", 20, "Primero", 20);
-        Alumno p = new Alumno("201929D", "Pedro", "Sierra", "10-20-2001");
-        ProfesorInterino profesorInterino = new ProfesorInterino("201928D", "Jose", "Marlon", "10-12-1988", "ingenieria", "Java",
-                2, false);
-        p.setAsignaturas(as);
+        String information;
+        char format;
 
-        System.out.println(profesorInterino);
+        Scanner sc = new Scanner(System.in);
+        information = sc.nextLine();
+        String toMayus = information.toUpperCase();
+        format = toMayus.charAt(0);
+
+
+        //Pedir información al usuario
+        System.out.println("¿Desea crear un alumno o un profesor?");
+        System.out.println("S(SI) / N(NO) ");
+
+        if(format == 'S' || format == 'Y'){
+            System.out.println("Valores a introducir");
+            System.out.println("dni, nombre, apellidos, fecha_nacimiento");
+
+            String dni = sc.nextLine();
+            String nombre = sc.nextLine();
+            String apellidos = sc.nextLine();
+            String fecha_nacimiento = sc.nextLine();
+
+            Alumno alumno = new Alumno(dni, nombre, apellidos, fecha_nacimiento);
+        }
+
+
     }
 }
