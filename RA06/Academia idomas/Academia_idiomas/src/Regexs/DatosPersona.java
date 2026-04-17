@@ -11,11 +11,14 @@ public class DatosPersona {
         Pattern pattern = Pattern.compile("[0-9]{8}[A-Z]");
         Matcher matcher = pattern.matcher(dni);
 
-        if(!matcher.matches()){
+        if(matcher.matches()){
+            return true;
+        }else {
             System.err.println("Datos del DNI erroneos");
+            return false;
         }
 
-        return true;
+
     }
 
     public static boolean regexNombre (String nombre) {
@@ -23,9 +26,12 @@ public class DatosPersona {
         Matcher matcher = pattern.matcher(nombre);
 
         if(matcher.matches()){
+            return true;
+
+        } else{
             System.err.println("Valor de nombre incorrecto");
+            return false;
         }
-        return true;
     }
 
     public static boolean regexApellidos (String apellidos) {
@@ -33,9 +39,11 @@ public class DatosPersona {
         Matcher matcher = pattern.matcher(apellidos);
 
         if(matcher.matches()){
+            return true;
+        } else {
             System.err.println("Valor de los apellidos incorrecto");
+            return false;
         }
-        return true;
     }
 
     public static boolean regexFecha (String fecha) {
@@ -53,20 +61,24 @@ public class DatosPersona {
         Matcher matcher = pattern.matcher(telefono);
 
         if(matcher.matches()){
+            return true;
+        } else {
             System.err.println("Teléfono incorrecto");
+            return false;
         }
 
-        return true;
     }
 
     public static boolean regexSueldo (String sueldo) {
-        Pattern pattern = Pattern.compile("[0-9]{4}, [0-9]{2}");
+        Pattern pattern = Pattern.compile("[0-9]{1,4},[0-9]{1,2}");
         Matcher matcher = pattern.matcher(sueldo);
 
         if(matcher.matches()){
+            return true;
+        } else {
             System.err.println("sueldo incorrecto");
+            return false;
         }
 
-        return true;
     }
 }
