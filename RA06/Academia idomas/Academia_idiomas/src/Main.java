@@ -1,14 +1,17 @@
+import Curso.Curso;
 import Persona.Persona;
 import Persona.Tipos.Alumno;
 import Persona.Tipos.ProfesorInterino;
 import Persona.Tipos.ProfesorTitular;
 import Regexs.DatosPersona;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        /*Parte pedimos valores al usuario*/
         Scanner sc = new Scanner(System.in);
         System.out.println("¿Que tipo de persona quiere crear?(A, T, I)");
         String tipoPersona = sc.nextLine();
@@ -37,15 +40,17 @@ public class Main {
         do {
             System.out.println("Fecha nacimiento: ");
             fecha_nacimiento = sc.nextLine();
-        } while (!DatosPersona.regexNombre(fecha_nacimiento));
+        } while (!DatosPersona.regexFecha(fecha_nacimiento));
 
-        System.out.println("Teléfono: ");
-        String telefono = sc.nextLine();
-
+        String telefono;
+        do{
+            System.out.println("Teléfono: ");
+            telefono = sc.nextLine();
+        } while (!DatosPersona.regexTlf(telefono));
 
         String sueldo;
         do {
-            System.out.println("Sueldo (si procede): ");
+            System.out.println("Sueldo (si es alumno introduzca 0,0): ");
             sueldo = sc.nextLine();
         } while (!DatosPersona.regexSueldo(sueldo));
 
@@ -64,7 +69,39 @@ public class Main {
             persona.setSueldo(1000);
             System.out.println(persona.getRol());
         }
+        /*-----------------------------FIN-----------------------------*/
+        /*Segunda parte ;D*/
+        ArrayList<Curso> listaCursos = new ArrayList<Curso>();
 
+        Curso c1 = new Curso("IG","Inglés" ,"B2", true, 4, 8);
+        Curso c2 = new Curso("FR", "Francés", "A1", false, 3, 7);
+        Curso c3 = new Curso("AL", "Aleman", "C1", true, 5, 10);
 
+        listaCursos.add(c1);
+        listaCursos.add(c2);
+        listaCursos.add(c3);
+
+        //Mostrar solo los que están activos:
+        System.out.println("----Cursos activos----");
+        for(Curso curso : listaCursos){
+            if(curso.isActivo()){
+                System.out.println(curso);
+            }
+        }
+
+        HashSet<Curso> listaCursoNoDuplicado = new HashSet<Curso>();
+        Curso c1nd = new Curso("1","Inglés" ,"B2", false, 0, 0);
+        Curso c2nd = new Curso("2","Japonés" ,"A1", false, 0, 0);
+        Curso c3nd = new Curso("1","Inglés" ,"B2", false, 0, 0);
+
+        listaCursoNoDuplicado.add(c1nd);
+        listaCursoNoDuplicado.add(c2nd);
+        listaCursoNoDuplicado.add(c3nd);
+
+        //Comprar lista de cursos sin duplicados
+        System.out.println("----Lista de cursos sin duplicados----");
+        for(Curso curso : listaCursoNoDuplicado){
+            System.out.println(curso);
+        }
     }
 }

@@ -3,7 +3,7 @@ package Curso;
 import java.util.Objects;
 
 public class Curso {
-    private int codigoCurso;
+    private String codigoCurso;
     private String idioma;
     private String nivel;
     private int horasSemanales;
@@ -11,7 +11,7 @@ public class Curso {
     private boolean activo;
 
     public Curso() {
-        this.codigoCurso = 0;
+        this.codigoCurso = null;
         this.idioma = null;
         this.nivel = null;
         this.horasSemanales = 0;
@@ -19,7 +19,7 @@ public class Curso {
         this.activo = false;
     }
 
-    public Curso(int codigoCurso, String idioma, String nivel, int horasSemanales, int precioPorHora, boolean activo) {
+    public Curso(String codigoCurso, String idioma, String nivel,  boolean activo ,int horasSemanales, int precioPorHora) {
         this.codigoCurso = codigoCurso;
         this.idioma = idioma;
         this.nivel = nivel;
@@ -38,11 +38,11 @@ public class Curso {
     }
 
 
-    public int getCodigoCurso() {
+    public String getCodigoCurso() {
         return codigoCurso;
     }
 
-    public void setCodigoCurso(int codigoCurso) {
+    public void setCodigoCurso(String codigoCurso) {
         this.codigoCurso = codigoCurso;
     }
 
@@ -101,7 +101,7 @@ public class Curso {
 
         if(obj instanceof Curso){
             Curso c = (Curso)obj;
-            iguales = c.codigoCurso == this.codigoCurso;
+            iguales = c.codigoCurso.equals(this.codigoCurso);
         }
 
         return iguales;
