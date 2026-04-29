@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a363dec2-3a3b-4f32-9ea4-a4de56c52ef6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/Herencia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/Test01/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/Test01/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/Test01/enunciado.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/test02/Enunciado.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/test02/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/test02/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/test03/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/test03/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../empezando_Herencia/Herencia/src/test03/Persona.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3ClKltREFTJeWcK5ou2fOKjPFPI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "RA5",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mario_4dza16n/Documents/www/java-daw-exercises/Tarea RA5 PROG10/Concesionario_Oltra"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a363dec2-3a3b-4f32-9ea4-a4de56c52ef6" name="Changes" comment="" />
+      <created>1776954870706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776954870706</updated>
+    </task>
+    <servers />
+  </component>
+</project>
