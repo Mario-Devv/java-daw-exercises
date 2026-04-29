@@ -1,2 +1,0 @@
-Ejercicio 2
-Añade a tu clase Estudiante los métodos get y set para sus dos atributos (curso y nota). Recuerda que los atributos son privados, así que la única forma de acceder a ellos desde fuera será a través de estos métodos.
